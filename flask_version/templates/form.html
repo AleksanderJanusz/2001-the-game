@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2001</title>
+</head>
+<body>
+<form action="/game" method="POST">
+  <h3>
+    Player: {{p_score }}  points! {{thr}} {{p_thr}}<br />
+    Computer: {{v_score }} points! {{thr}} {{v_thr}}<br />
+  </h3>
+  <div>
+
+    <legend>Chose dice 1:</legend>
+
+    <label> <input type="radio" name="dice1" value="3" /> D3 </label><br />
+
+    <label> <input type="radio" name="dice1" value="4" /> D4 </label><br />
+
+    <label> <input type="radio" name="dice1" value="6" checked="checked" /> D6 </label><br />
+
+    <label> <input type="radio" name="dice1" value="8" /> D8 </label><br />
+
+    <label> <input type="radio" name="dice1" value="10" /> D10 </label><br />
+
+    <label> <input type="radio" name="dice1" value="12" /> D12 </label><br />
+
+    <label> <input type="radio" name="dice1" value="20" /> D20 </label><br />
+
+    <label> <input type="radio" name="dice1" value="100" /> D100 </label>
+
+  </div><br />
+
+  <div>
+
+    <legend>Chose dice 2:</legend>
+
+    <label> <input type="radio" name="dice2" value="3" /> D3 </label><br />
+
+    <label> <input type="radio" name="dice2" value="4" /> D4 </label><br />
+
+    <label> <input type="radio" name="dice2" value="6" checked="checked" /> D6 </label><br />
+
+    <label> <input type="radio" name="dice2" value="8" /> D8 </label><br />
+
+    <label> <input type="radio" name="dice2" value="10" /> D10 </label><br />
+
+    <label> <input type="radio" name="dice2" value="12" /> D12 </label><br />
+
+    <label> <input type="radio" name="dice2" value="20" /> D20 </label><br />
+
+    <label> <input type="radio" name="dice2" value="100" /> D100 </label>
+
+  </div><br />
+
+    <input type="submit" value="Enter">
+
+    <input type="hidden"
+         name="score_p"
+         value="{{p_score}}">
+
+    <input type="hidden"
+         name="score_v"
+         value="{{v_score}}">
+
+</form>
+</body>
+</html>
