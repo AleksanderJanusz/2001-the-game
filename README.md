@@ -8,3 +8,9 @@
 3) In second version you can pick the dice D3, D4, D6, D8, D10, D12, D20, D100.
 4) After starting the game chose wich option you chose by typing 1 or 2
 5) Good luck and have fun!
+
+# You can use your browser to play!
+1) To do that open app.py from flask_version folder
+2) Start server
+3) Open local link (* Running on 'link')
+4) Enjoy playing!
